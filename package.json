@@ -34,6 +34,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "firebase": "^11.10.0",
+    "lightningcss": "^1.30.1",
     "multer": "^1.4.5-lts.2",
     "next": "^15.3.2",
     "postcss": "^8.5.3",
@@ -41,6 +42,7 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.6.0",
     "react-scripts": "^5.0.1",
+    "sharp": "^0.34.3",
     "tailwindcss": "^4.1.5",
     "web-vitals": "^2.1.4"
   },
@@ -67,5 +69,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "optionalDependencies": {
+    "lightningcss-linux-x64-gnu": "^1.28.2",
+    "lightningcss-darwin-x64": "^1.28.2",
+    "lightningcss-win32-x64-msvc": "^1.28.2"
   }
 }
